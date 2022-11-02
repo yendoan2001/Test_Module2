@@ -22,20 +22,25 @@ export class Product {
         this.date = date;
         this.describe = describe;
     }
-    setName(name:string){
-        this.name=name;
+
+    setName(name: string) {
+        this.name = name;
     }
-    setType(type:string){
-        this.type=type;
+
+    setType(type: string) {
+        this.type = type;
     }
-    setPrice(price: number){
+
+    setPrice(price: number) {
         this.price = price;
     }
-    setAmount(amount: number){
-        this.amount=amount;
+
+    setAmount(amount: number) {
+        this.amount = amount;
     }
-    setDescribe(describe:string){
-        this.describe=describe;
+
+    setDescribe(describe: string) {
+        this.describe = describe;
     }
 
 }

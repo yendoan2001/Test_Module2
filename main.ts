@@ -9,7 +9,8 @@ function menu() {
     console.log('5: Delete product');
     console.log('0: Exit')
 }
-export function subMenu(){
+
+export function subMenu() {
     console.log('1: Edit name');
     console.log('2: Edit type');
     console.log('3: Edit price');
